@@ -10,6 +10,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Icon -->
 
@@ -39,7 +40,7 @@
 <body>
 	<header>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light style="background-color: #08d3b5;">
+		<nav class="navbar top-menu navbar-expand-lg navbar-light bg-light style="background-color: #08d3b5;">
   			<a class="navbar-brand" href="#"><img src="ressources/pictures/logo.jpg" alt="ttgv-logo" class="navbar-logo"TTGV /></a>
   				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
@@ -48,6 +49,9 @@
 			    <ul class="navbar-nav">
       				<li class="nav-item active">
 				        <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+				    </li>
+				    <li>
+				    	<a class="nav-link" href="#le_club">Le Club<span class="sr-only">(current)</span></a>
 				    </li>
 				    <li class="nav-item dropdown">
 				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Evenements</a>
@@ -58,12 +62,16 @@
 							</div>
 			        </li>
 			        <li class="nav-item">
-				        <a class="nav-link" href="#">Nous Rejoindre</a>
+				        <a class="nav-link" href="#contact">Nous Contacter</a>
 				    </li>
-				    <li class="nav-item">
-				        <a class="nav-link" href="#">Histoire du club</a>
-			        </li>
-			        
+			    </ul>
+			    <ul class="navbar-nav ml-auto">
+			        <li>
+				        <a class="nav-link" href="#">Connexion</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#">Inscription</a>
+					</li>
 			    </ul>
 		    </div>
 		</nav>
@@ -88,8 +96,15 @@
 		</div>
 
 	</header>
-<!-- NOS PRODUITS
+
+
+<!-- HISTOIRE DU CLUB
 	=================================================-->
+
+
+	<div class="club-ancre" id="le_club">
+		
+	</div>
 	<section class="le-club">
 			<div class="container">
 
@@ -113,17 +128,17 @@
 
 					<div class="col-md-5">
 
-						<!-- Plus produit 1 ================================================= -->
+						<!-- CLUB INFO 1 ================================================= -->
 
-						<div class="produits-plus">
+						<div class="club-infos">
 
 							<div class="row">
 
 								<div class="col-md-2">
 
-									<div class="produits-icon">
+									<div class="club-icon">
 
-										<i class="far fa-check-circle"></i>
+										<i class="fas fa-table-tennis"></i>
 
 									</div>
 
@@ -131,7 +146,7 @@
 
 								<div class="col-md-10">
 
-									<h3>Produits BIO</h3>
+									<h4>Convivial</h4>
 
 									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 
@@ -141,17 +156,17 @@
 
 						</div>
 
-						<!-- Plus produit 2 ================================================= -->
+						<!-- CLUB INFO 2 ================================================= -->
 
-						<div class="produits-plus">
+						<div class="club-infos">
 
 							<div class="row">
 
 								<div class="col-md-2">
 
-									<div class="produits-icon">
+									<div class="club-icon">
 
-										<i class="far fa-check-circle"></i>
+										<i class="fas fa-table-tennis"></i>
 
 									</div>
 
@@ -159,7 +174,7 @@
 
 								<div class="col-md-10">
 
-									<h3>Produits BIO</h3>
+									<h4>Respectueux</h4>
 
 									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 
@@ -169,17 +184,17 @@
 
 						</div>
 
-						<!-- Plus produit 3 ================================================= -->
+						<!-- CLUB INFO 3 ================================================= -->
 
-						<div class="produits-plus">
+						<div class="club-infos">
 
 							<div class="row">
 
 								<div class="col-md-2">
 
-									<div class="produits-icon">
+									<div class="club-icon">
 
-										<i class="far fa-check-circle"></i>
+										<i class="fas fa-table-tennis"></i>
 
 									</div>
 
@@ -187,7 +202,7 @@
 
 								<div class="col-md-10">
 
-									<h3>Produits BIO</h3>
+									<h4>LOREM IPSUM</h4>
 
 									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 
@@ -200,24 +215,135 @@
 					</div>
 
 				</div>
+				<div class="row club-story">
+
+					<div class="col-md-12">
+
+						<h3>Son Histoire</h3>
+
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, </p>
+					</div>
+				</div>
 
 			</div>
 	</section>
-	
+
+	<!-- CONTACT
+	=================================================-->
+
+	<div class="ancre-contact" id="contact"></div>
+
+	<section class="contact-section">
+		<div class="container contact-container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form">
+
+								<!-- CONTACT-TITLE -->
+
+								<h2>Contactez-nous</h2>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+								<!-- Phone -->
+						<div class="col-md-4">
+							<div class="phone">
+								<div class="phone-number">
+									<i class="fas fa-phone"></i> <p>02.51.**.**.**</p>
+								</div>
+							</div>
+						</div>
+								<!-- Adress -->
+						<div class="col-md-8">
+							<div class="adress">
+								<i class="fas fa-map-marker-alt"></i> <p>Rue de la Levrette 85190 - La Genétouze</p>
+							</div>
+						</div>
+					</div>
+					<form>
+						<div class="row">
+								<!-- Name -->
+							<div class="col-md-6">
+								<div class="contact-form">
+									<label>Nom:</label>
+									<input type="text" id="name" class="name" placeholder="Nom" />
+								</div>
+							</div>
+								<!-- Email -->
+							<div class="col-md-6">
+								<div class="contact-form">
+									<label>Email:</label>
+									<input type="email" id="email" class="email" placeholder="Email" />
+									<br />
+									<small>Vous ne receverez pas de publicités.</small>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+								<!-- Service -->
+							<div class="col-md-12">
+								<div class="choose-service">
+									<label>Votre lien au club</label>
+										<select>
+											<option>Adhérent</option>
+											<option>Aucun lien actuellement</option>
+										</select>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<!-- Message -->
+									<label>Votre message :</label>
+										<textarea id="message" row="3" class="contact-message"></textarea>
+							</div>
+						</div>
+						<div class="row">
+								<!-- Button -->
+							<div class="col-md-12">
+									<button class="btn send-btn">
+										Envoyer
+									</button>
+									<i class="fas fa-envelope send-icon"></i>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<div class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2734.918245797948!2d-1.5106996!3d46.727074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a7cab85890ce542!2sBasket+Club+La+Gen%C3%A9touze!5e0!3m2!1sfr!2sfr!4v1551793254416" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</section>
+
+
 	<!-- FOOTER
 	=========================================== -->
 
 	<footer>
 		<nav class="navbar footer navbar-expand-lg style="background-color: #000;"">
-			<div class="btn-footer">
-	  			<button class="snip1582">Copyright</button>
-	  		</div>
-			<div class="btn-footer">
-				<button class="snip1582">Mentions Légales</button>
-			</div>
-			<div class="btn-footer">
-				<button class="snip1582">Infos</button>
-			</div>
+			<ul class="footer-animation">
+				<li class="btn-footer">
+  					<a class="snip1582">Copyright</a>
+  				</li>
+				<li class="btn-footer">
+					<a class="snip1582">Mentions Légales</a>
+				</li>
+				<li class="btn-footer">
+					<a class="snip1582">Infos</a>
+				</li>
+			</ul>
 		</nav>
 	</footer>
 
