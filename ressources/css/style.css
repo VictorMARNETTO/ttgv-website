@@ -222,9 +222,16 @@ header {
 
 /*CONTACT
 =========================================*/
+.contact-form {
+	margin-bottom: 30px;
+}
 
+.contact-message {
+	width: 100%;
+}
 .contact-section {
 	background-image: url(../pictures/contact/contact-bg.jpg);
+	padding-top: 5vh;
 	padding-bottom: 12vh;
 	background-position: center;
 	background-size: cover;
@@ -243,11 +250,18 @@ header {
 }
 
 .map {
-	padding-top: 20%; 
-	padding-bottom: 10%;
 	overflow: hidden;
-	height: 80%;
-	width: 80%;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 .send-btn {
@@ -276,6 +290,7 @@ header {
 
 .footer-animation {
 	text-align: center;
+	background-color: #000; 
 }
 
 .footer-animation li {
@@ -292,13 +307,12 @@ header {
     transition: all 0.35s linear;
 }
 
-.footer {
+footer {
 	display: flex;
-	position: absolute;
-	align-items: center;
+	position: relative;
 	justify-content: space-around;
-	height: 12vh;
-	background-color: black;
+	background-color: #000;
+	color: #000;
 }
 
 .snip1582 {
